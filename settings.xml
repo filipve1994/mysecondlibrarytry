@@ -20,6 +20,17 @@
         <profile>
             <id>central</id>
             <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <properties>
+                <gpg.executable>gpg</gpg.executable>
+                <gpg.passphrase>${env.GPG_PASSPHRASE}</gpg.passphrase>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>github</id>
+            <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>

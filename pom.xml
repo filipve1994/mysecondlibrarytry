@@ -7,5 +7,43 @@
     <version>0.0.1-SNAPSHOT</version>
     <!--<version>0.0.1</version>-->
 
+        <packaging>jar</packaging>
+
+    <!-- Name and description are also required for Central -->
+    <name>myfirstlibrary-v2</name>
+    <description>sample description for myfirstlibrary-v2</description>
+
+    <organization>
+        <name>FILIPVE1994</name>
+    </organization>
+
+    <url>https://github.com/filipve1994/myfirstlibrary-v2</url>
+
+    <developers>
+        <developer>
+            <name>filipve1994</name>
+            <email>filipsamplenonexisting@gmail.com</email>
+            <organization>Filip Vanden Eynde</organization>
+            <organizationUrl>https://www.filipve1994.com</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <developerConnection>scm:git:https://github.com/filipve1994/myfirstlibrary-v2</developerConnection>
+    </scm>
+
+    <build>
+	<plugins>
+	    <plugin>
+        	<groupId>org.apache.maven.plugins</groupId>
+        	<artifactId>maven-release-plugin</artifactId>
+        	<version>3.1.1</version>
+		    <configuration>
+          
+            </configuration>
+      	</plugin>
+
+	</plugins>
+    </build>
 
 </project>
