@@ -4,7 +4,7 @@
 
     <groupId>io.github.filipve1994</groupId>
     <artifactId>mysecondlibrarytry</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <!--<version>0.0.1</version>-->
 
     <packaging>jar</packaging>
@@ -47,7 +47,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/filipve1994/mysecondlibrarytry</developerConnection>
-      <tag>mysecondlibrarytry-0.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <build>
