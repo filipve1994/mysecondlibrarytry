@@ -3,15 +3,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.filipve1994</groupId>
-    <artifactId>myfirstlibrary</artifactId>
+    <artifactId>mysecondlibrarytry</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <!--<version>0.0.1</version>-->
 
-        <packaging>jar</packaging>
+    <packaging>jar</packaging>
 
     <!-- Name and description are also required for Central -->
-    <name>myfirstlibrary-v2</name>
-    <description>sample description for myfirstlibrary-v2</description>
+    <name>mysecondlibrarytry</name>
+    <description>sample description for mysecondlibrarytry</description>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -34,7 +34,7 @@
         <name>FILIPVE1994</name>
     </organization>
 
-    <url>https://github.com/filipve1994/myfirstlibrary-v2</url>
+    <url>https://github.com/filipve1994/mysecondlibrarytry</url>
 
     <developers>
         <developer>
@@ -46,7 +46,7 @@
     </developers>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/filipve1994/myfirstlibrary-v2</developerConnection>
+        <developerConnection>scm:git:https://github.com/filipve1994/mysecondlibrarytry</developerConnection>
     </scm>
 
     <build>
