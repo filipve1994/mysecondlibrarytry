@@ -1,0 +1,19 @@
+name: Java CI with Maven
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+        - name: Step 1 - Checkout repository
+          uses: actions/checkout@v4
+          with:
+            fetch-depth: 0
+            ref: ${{ github.ref_name }} # dynamically use branch name
+
