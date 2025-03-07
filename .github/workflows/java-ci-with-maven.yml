@@ -16,6 +16,10 @@ jobs:
           with:
             fetch-depth: 0
             ref: ${{ github.ref_name }} # dynamically use branch name
+        - name: Configure Git user
+          run: |
+            git config user.email "actions@github.com"
+            git config user.name "GitHub Actions"
 
         - name: Step 3 - Set up Maven Central Repository
           uses: actions/setup-java@v4
